@@ -8,7 +8,7 @@ let localCounter = 'X';
 //listener for the counterdocument. All updates are relayed to the
 //counter element.
 counterDoc.onSnapshot(snapshot => {
-    localCounter = snapshot.data();
+    localCounter = snapshot.data().count;
     counter.innerText = localCounter;
 });
 
