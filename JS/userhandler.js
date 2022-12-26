@@ -14,7 +14,7 @@ counterDoc.onSnapshot(snapshot => {
 
 //listener for the logout form. Listens for keypresses, especially 'Enter'
 loginForm.addEventListener('keypress', event => {
-    if(event.key === 'Enter' && loginForm['username'].value.length > 5 && loginForm['password'].value.length > 5){
+    if(event.key === 'Enter' && loginForm['username'].value.length > 5){
         login(loginForm['username'].value);
     }
 });
@@ -51,7 +51,7 @@ function login(inputuser){
     .then(result => {
         if(result.docs.length === 1){
             const user = result.docs[0].data();
-            if(user.password === loginForm['password'].value){ 
+            if(user.username === loginForm['username'].value){ 
                 username = user.username; 
                 console.log(user.username, username)  
                 renderCounter();
