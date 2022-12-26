@@ -1,40 +1,17 @@
 /*log in*/
 body{
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-left: 1px;
+  margin-top: 20px;
   color: white;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height:50%;
   text-align: center;
   background-color: #423a6f;
   font-size: 30px;
 }
-.main {
-    text-align: center;
-    margin: 0 auto;
-    width: fit-content;
-}
-
-input {
-    margin: 0.2em 0;
-    font-size: 1.2em;
-    width: 100%;
-    text-align: center;
-}
-
-form {
-    padding: 1em;
-}
-
-form,
-.counter {
-    background-color: blanchedalmond;
-    border-radius: 2em;
-    padding: 2em;
-}
-
 h1 {
     color: rgb(83, 2, 2);
-    font-size: 2em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -52,13 +29,10 @@ h1 {
 }
 
 .counter button {
-    height: 3ch;
     background-color: rgb(209, 95, 24);
     color: rgb(26, 255, 0);
-    font-size: 1.5em;
     border: none;
     border-radius: 5px;
-    width: 2ch;
 }
 
 #logout {
@@ -92,17 +66,23 @@ form {
 
 form,
 .counter {
+  margin-top: 150px;
+  margin-left: 1px;
+  color: white;
+  width: 110%;
+  height:60%;
+  text-align: center;
+  font-size: 30px;
   background-color: blanchedalmond;
-  border-radius: 2em;
-  padding: 2em;
+  border-radius: 1em;
+  padding: 1em;
 }
 
 h1 {
   color: rgb(81, 0, 0);
-  font-size: 2em;
+  font-size: 1em;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .warning {
   color: red;
 }
@@ -117,13 +97,12 @@ h1 {
 }
 
 .counter button {
-  height: 3ch;
+  margin-top: 0;
   background-color: rgb(209, 95, 24);
   color: rgb(26, 255, 0);
   font-size: 1.5em;
   border: none;
   border-radius: 5px;
-  width: 2ch;
 }
 
 #logout {
